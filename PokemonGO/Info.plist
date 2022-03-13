@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Precisamos da sua localização para que você possa caçar pokemons!</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,5 +23,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>location-services</string>
+		<string>gps</string>
+		<string>armv7</string>
+	</array>
 </dict>
 </plist>
